@@ -22,6 +22,7 @@ def loadInputs(file_name):
         res.append(p)
     return res
 
+
 def writeResults(results, file_name):
     outputFile = 'output/' + file_name + '.txt'
     f = open(outputFile, 'w')
